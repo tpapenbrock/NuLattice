@@ -2,7 +2,7 @@
 functions to perform a Hartree-Fock computation on the lattice
 """
 __authors__   =  "Thomas Papenbrock"
-__credits__   =  ["Thomas Papenbrock"]
+__credits__   =  ["Thomas Papenbrock, Jifeng Fan"]
 __copyright__ = "(c) Thomas Papenbrock"
 __license__   = "BSD-3-Clause"
 __date__      = "2025-07-26"
