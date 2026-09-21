@@ -93,10 +93,10 @@ def contract_3nf(w3,dens):
                          -dens[c,d]*dens[b,e]
                          -dens[b,e]*dens[c,d]
                          +dens[c,e]*dens[b,d] )
-        res[b,f] += val*( dens[c,e]*dens[a,f]  # (bca), (fde), antisym last two pairs
-                         -dens[a,e]*dens[c,f]
-                         -dens[c,f]*dens[a,e]
-                         +dens[a,f]*dens[c,e] )        
+        res[b,f] += val*( dens[c,d]*dens[a,e]  # (bca), (fde), antisym last two pairs
+                         -dens[a,d]*dens[c,e]
+                         -dens[c,e]*dens[a,d]
+                         +dens[a,e]*dens[c,d] )        
         res[c,f] += val*( dens[a,d]*dens[b,e]  # (cab), (fde), antisym last two pairs
                          -dens[b,d]*dens[a,e]
                          -dens[a,e]*dens[b,d]
